@@ -1,0 +1,41 @@
+
+.example-container
+ {
+  background: linear-gradient(to right top, #f0c, #0cf);
+  /* Vertical gradient from top to bottom */
+  
+  /* You can use any valid color values for the gradient stops */
+  /* For example, #f0c is a light shade of magenta, and #0cf is a light shade of cyan */
+  /* You can use color names, HEX values, RGB, RGBA, etc. */
+  /* You can also use percentages or degrees to control the gradient direction */
+  /* For example, to create a horizontal gradient, use 'to right' or 'to left' */
+
+  /* Additional styles to make sure the gradient covers the entire viewport */
+  /* You may need to set the height to 100% if the content is not enough to fill the viewport */
+  height: 100vw;
+  width: 100vw;
+  margin: 0;
+  padding:0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-family: futura-pt, sans-serif;
+  color:linear-gradient(to right top,#5F5980,#0E34A0);
+  font-size:xx-large;
+}
+/* .example-container div{
+  background: White;
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+} */
+.central-para{
+  background: white;
+  position: sticky;
+  padding:10vh;
+  margin:20vh;
+  flex:1;
+  /* box-sizing: border-box; */
+
+}
+
